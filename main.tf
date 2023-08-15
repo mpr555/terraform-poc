@@ -21,5 +21,5 @@ resource "azurerm_virtual_network" "core-vnet" {
   name = "core-vnet"
   location = azurerm_resource_group.core-rg.location
   resource_group_name = azurerm_resource_group.core-rg.name
-  address_space = ["10.0.0.0*/16"]  
+  address_space = ["10.0.0.0/16"]  
 }
